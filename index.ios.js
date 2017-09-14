@@ -10,7 +10,7 @@ export default class friendsaid extends Component {
   render() {
     return (
       <NavigatorIOS
-          navigationBarHidden={false}
+          navigationBarHidden={true}
           initialRoute={{title: "Home", component: Home }}
           style={{flex: 1}}/>
     );
